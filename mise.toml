@@ -33,6 +33,10 @@ run = "cargo run --locked --manifest-path tools/Cargo.toml -- typecheck"
 description = "Run deterministic game and interface tests"
 run = "godot --headless --path . --script addons/gut/gut_cmdln.gd -gexit"
 
+[tasks.prepare-rust-checks]
+description = "Install the Rust verification components"
+run = "rustup component add rustfmt clippy"
+
 [tasks.check]
 description = "Check formatting, types, content, and behavior"
 run = [

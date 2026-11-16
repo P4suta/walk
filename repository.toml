@@ -4,7 +4,8 @@ install = """
 git clone https://github.com/P4suta/walk.git
 cd walk
 mise trust
-mise install godot rust python uv pipx:gdtoolkit lefthook jactionlint zizmor gitleaks"""
+mise install godot rust python uv pipx:gdtoolkit lefthook jactionlint zizmor gitleaks
+mise run prepare-rust-checks"""
 usage = "mise run play"
 copyright = "Yasunobu"
 license = "MIT OR Apache-2.0"

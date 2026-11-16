@@ -8,6 +8,7 @@ The project stores Godot Unit Test (GUT) 9.7.1 in `addons/gut` with its license.
 ```sh
 mise trust
 mise install godot rust python uv pipx:gdtoolkit lefthook jactionlint zizmor gitleaks
+mise run prepare-rust-checks
 mise run editor
 ```
 

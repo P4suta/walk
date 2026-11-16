@@ -1,0 +1,181 @@
+{
+  "source_node": "36:1733",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 252,
+      "y": 44,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "South Asia/Taj Mahal",
+      "artwork": "2d382.svg",
+      "x": -24,
+      "y": 75,
+      "width": 100,
+      "height": 74,
+      "motion": 4
+    },
+    {
+      "name": "South Asia/Cypress",
+      "artwork": "51dd0.svg",
+      "x": 118,
+      "y": 115,
+      "width": 10,
+      "height": 34,
+      "motion": 4
+    },
+    {
+      "name": "South Asia/Pool tile",
+      "artwork": "d8ccc.svg",
+      "x": 20,
+      "y": 137,
+      "width": 32,
+      "height": 12,
+      "motion": 4
+    },
+    {
+      "name": "South Asia/Pool tile",
+      "artwork": "d8ccc.svg",
+      "x": 52,
+      "y": 137,
+      "width": 32,
+      "height": 12,
+      "motion": 4
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": -32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/Garden tile",
+      "artwork": "83050.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "South Asia/India Gate",
+      "artwork": "22477.svg",
+      "x": 140,
+      "y": 97,
+      "width": 29,
+      "height": 52,
+      "motion": 4
+    },
+    {
+      "name": "South Asia/Peacock",
+      "artwork": "60cf7.svg",
+      "x": 252,
+      "y": 121,
+      "width": 37,
+      "height": 28,
+      "motion": 4
+    }
+  ]
+}

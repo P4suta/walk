@@ -1,0 +1,199 @@
+{
+  "source_node": "15:391",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 120,
+      "y": 34,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Forest/Tree line",
+      "artwork": "114dd.svg",
+      "x": -160,
+      "y": 109,
+      "width": 160,
+      "height": 40,
+      "motion": 1
+    },
+    {
+      "name": "Forest/Tree line",
+      "artwork": "114dd.svg",
+      "x": 0,
+      "y": 109,
+      "width": 160,
+      "height": 40,
+      "motion": 1
+    },
+    {
+      "name": "Forest/Tree line",
+      "artwork": "114dd.svg",
+      "x": 160,
+      "y": 109,
+      "width": 160,
+      "height": 40,
+      "motion": 1
+    },
+    {
+      "name": "Forest/Tree line",
+      "artwork": "114dd.svg",
+      "x": 320,
+      "y": 109,
+      "width": 160,
+      "height": 40,
+      "motion": 1
+    },
+    {
+      "name": "Forest/Cedar",
+      "artwork": "5e1fd.svg",
+      "x": 49,
+      "y": 73,
+      "width": 27,
+      "height": 76,
+      "motion": 4
+    },
+    {
+      "name": "Forest/Broadleaf tree",
+      "artwork": "f0d8e.svg",
+      "x": 300,
+      "y": 89,
+      "width": 46,
+      "height": 60,
+      "motion": 4
+    },
+    {
+      "name": "Forest/Stone lantern",
+      "artwork": "4756e.svg",
+      "x": 252,
+      "y": 120,
+      "width": 18,
+      "height": 29,
+      "motion": 4
+    },
+    {
+      "name": "Forest/Shrine gate",
+      "artwork": "da293.svg",
+      "x": 140,
+      "y": 102,
+      "width": 50,
+      "height": 47,
+      "motion": 4
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": -32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Forest/Floor tile",
+      "artwork": "c1107.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    }
+  ]
+}

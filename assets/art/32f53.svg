@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Rice fields/Dirt path tile" clip-path="url(#clip0_0_124)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="black"/>
+<path id="ink" d="M0 0H32V1H0V0ZM3 2H4V3H3V2ZM5 2H6V3H5V2ZM25 2H26V3H25V2ZM27 2H28V3H27V2ZM4 3H5V4H4V3ZM14 3H15V4H14V3ZM16 3H17V4H16V3ZM26 3H27V4H26V3ZM15 4H16V5H15V4ZM8 7H9V8H8V7ZM0 12H3V13H0V12ZM8 12H11V13H8V12ZM16 12H19V13H16V12ZM24 12H27V13H24V12ZM20 17H21V18H20V17ZM4 22H7V23H4V22ZM12 22H15V23H12V22ZM20 22H23V23H20V22ZM28 22H31V23H28V22ZM28 27H29V28H28V27ZM5 28H6V29H5V28Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_0_124">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,172 @@
+{
+  "source_node": "37:2997",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Bird",
+      "artwork": "63135.svg",
+      "x": 190,
+      "y": 38,
+      "width": 9,
+      "height": 3,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud A",
+      "artwork": "83f3e.svg",
+      "x": 40,
+      "y": 80,
+      "width": 44,
+      "height": 16,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 252,
+      "y": 126,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Above the clouds/Rainbow",
+      "artwork": "27aee.svg",
+      "x": -32,
+      "y": 105,
+      "width": 100,
+      "height": 44,
+      "motion": 4
+    },
+    {
+      "name": "Above the clouds/Sky castle",
+      "artwork": "e9e2e.svg",
+      "x": 236,
+      "y": 44,
+      "width": 84,
+      "height": 76,
+      "motion": 4
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": -32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud path tile",
+      "artwork": "ecac0.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Above the clouds/Cloud whale",
+      "artwork": "69e50.svg",
+      "x": 124,
+      "y": 66,
+      "width": 57,
+      "height": 20,
+      "motion": 4
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "かかし"
+artwork = "res://assets/art/036a1.svg"
+artwork_size = Vector2i(20, 30)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "農家"
+artwork = "res://assets/art/1922d.svg"
+artwork_size = Vector2i(72, 44)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "お地蔵さん"
+artwork = "res://assets/art/41c3d.svg"
+artwork_size = Vector2i(12, 18)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "水車小屋"
+artwork = "res://assets/art/3ffe2.svg"
+artwork_size = Vector2i(52, 40)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "火の見やぐら"
+artwork = "res://assets/art/7b5ba.svg"
+artwork_size = Vector2i(21, 64)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "こいのぼり"
+artwork = "res://assets/art/3a823.svg"
+artwork_size = Vector2i(36, 64)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "軽トラック"
+artwork = "res://assets/art/8176b.svg"
+artwork_size = Vector2i(43, 24)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "柿の木"
+artwork = "res://assets/art/b0c02.svg"
+artwork_size = Vector2i(43, 48)
+
+[resource]
+script = ExtResource("1")
+key = "rice_fields"
+title = "田んぼ道"
+source_node = "53:4077"
+end_distance_m = 1400.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/rice_fields.json"

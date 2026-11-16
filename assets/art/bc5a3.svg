@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Stone age/Earth tile" clip-path="url(#clip0_0_160)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="black"/>
+<path id="ink" d="M0 0H32V1H0V0ZM6 6H8V7H6V6ZM9 7H10V8H9V7ZM20 9H22V10H20V9ZM23 10H24V11H23V10ZM12 18H14V19H12V18ZM15 19H16V20H15V19ZM26 22H28V23H26V22ZM29 23H30V24H29V23ZM4 27H6V28H4V27ZM7 28H8V29H7V28Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_0_160">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

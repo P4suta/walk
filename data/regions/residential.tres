@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "わが家"
+artwork = "res://assets/art/43fc2.svg"
+artwork_size = Vector2i(56, 60)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "公園のすべり台"
+artwork = "res://assets/art/db892.svg"
+artwork_size = Vector2i(43, 34)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "自動販売機"
+artwork = "res://assets/art/59497.svg"
+artwork_size = Vector2i(16, 26)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "郵便ポスト"
+artwork = "res://assets/art/66aea.svg"
+artwork_size = Vector2i(11, 22)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "瓦屋根の家"
+artwork = "res://assets/art/81244.svg"
+artwork_size = Vector2i(64, 40)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "バス停"
+artwork = "res://assets/art/fb082.svg"
+artwork_size = Vector2i(15, 32)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "踏切"
+artwork = "res://assets/art/7f409.svg"
+artwork_size = Vector2i(40, 42)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "銭湯"
+artwork = "res://assets/art/5c84b.svg"
+artwork_size = Vector2i(57, 70)
+
+[resource]
+script = ExtResource("1")
+key = "residential"
+title = "住宅街"
+source_node = "53:3732"
+end_distance_m = 8.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/residential.json"

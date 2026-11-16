@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ChapterDef" load_steps=14 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/chapter_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="2"]
+[ext_resource type="Resource" path="res://data/regions/east_asia.tres" id="region_0"]
+[ext_resource type="Resource" path="res://data/regions/southeast_asia.tres" id="region_1"]
+[ext_resource type="Resource" path="res://data/regions/south_asia.tres" id="region_2"]
+[ext_resource type="Resource" path="res://data/regions/desert_lands.tres" id="region_3"]
+[ext_resource type="Resource" path="res://data/regions/savanna.tres" id="region_4"]
+[ext_resource type="Resource" path="res://data/regions/mediterranean.tres" id="region_5"]
+[ext_resource type="Resource" path="res://data/regions/western_europe.tres" id="region_6"]
+[ext_resource type="Resource" path="res://data/regions/northern_europe.tres" id="region_7"]
+[ext_resource type="Resource" path="res://data/regions/north_america.tres" id="region_8"]
+[ext_resource type="Resource" path="res://data/regions/latin_america.tres" id="region_9"]
+[ext_resource type="Resource" path="res://data/regions/oceania.tres" id="region_10"]
+
+[resource]
+script = ExtResource("1")
+title = "世界"
+source_origin_m = 1150000.0
+gate_price = 60000
+gate_multiplier = 1000.0
+regions = Array[ExtResource("2")]([ExtResource("region_0"), ExtResource("region_1"), ExtResource("region_2"), ExtResource("region_3"), ExtResource("region_4"), ExtResource("region_5"), ExtResource("region_6"), ExtResource("region_7"), ExtResource("region_8"), ExtResource("region_9"), ExtResource("region_10")])

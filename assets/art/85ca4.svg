@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Storybook land/Meadow tile" clip-path="url(#clip0_0_174)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM6 4H7V5H6V4ZM5 5H6V6H5V5ZM7 5H8V6H7V5ZM6 6H7V9H6V6ZM21 7H22V8H21V7ZM20 8H21V9H20V8ZM22 8H23V9H22V8ZM21 9H22V12H21V9ZM12 17H13V18H12V17ZM11 18H12V19H11V18ZM13 18H14V19H13V18ZM12 19H13V22H12V19ZM26 19H27V20H26V19ZM25 20H26V21H25V20ZM27 20H28V21H27V20ZM26 21H27V24H26V21ZM3 26H4V27H3V26ZM5 26H6V27H5V26ZM4 27H5V28H4V27ZM17 27H18V28H17V27ZM19 27H20V28H19V27ZM18 28H19V29H18V28Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_174">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

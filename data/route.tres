@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="RouteDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/route_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/chapter_def.gd" id="2"]
+[ext_resource type="Resource" path="res://data/chapters/japan.tres" id="chapter_0"]
+[ext_resource type="Resource" path="res://data/chapters/world.tres" id="chapter_1"]
+[ext_resource type="Resource" path="res://data/chapters/space.tres" id="chapter_2"]
+[ext_resource type="Resource" path="res://data/chapters/eras.tres" id="chapter_3"]
+[ext_resource type="Resource" path="res://data/chapters/fantasy.tres" id="chapter_4"]
+
+[resource]
+script = ExtResource("1")
+chapters = Array[ExtResource("2")]([ExtResource("chapter_0"), ExtResource("chapter_1"), ExtResource("chapter_2"), ExtResource("chapter_3"), ExtResource("chapter_4")])

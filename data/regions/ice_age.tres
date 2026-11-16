@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "洞くつの壁画"
+artwork = "res://assets/art/12561.svg"
+artwork_size = Vector2i(56, 40)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "オオツノジカ"
+artwork = "res://assets/art/bf7c0.svg"
+artwork_size = Vector2i(40, 44)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "ケブカサイ"
+artwork = "res://assets/art/bf864.svg"
+artwork_size = Vector2i(46, 26)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "マンモス"
+artwork = "res://assets/art/4ade9.svg"
+artwork_size = Vector2i(58, 42)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "サーベルタイガー"
+artwork = "res://assets/art/fca13.svg"
+artwork_size = Vector2i(41, 25)
+
+[resource]
+script = ExtResource("1")
+key = "ice_age"
+title = "氷河期"
+source_node = "53:9270"
+end_distance_m = 80000000000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/ice_age.json"

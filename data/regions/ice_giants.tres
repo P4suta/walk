@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "天王星"
+artwork = "res://assets/art/7bc21.svg"
+artwork_size = Vector2i(21, 41)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "氷の間欠泉"
+artwork = "res://assets/art/3aee8.svg"
+artwork_size = Vector2i(18, 50)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "氷の結晶"
+artwork = "res://assets/art/388c9.svg"
+artwork_size = Vector2i(20, 26)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "海王星"
+artwork = "res://assets/art/78e44.svg"
+artwork_size = Vector2i(64, 64)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "冥王星"
+artwork = "res://assets/art/919a7.svg"
+artwork_size = Vector2i(34, 21)
+
+[resource]
+script = ExtResource("1")
+key = "ice_giants"
+title = "氷の星々"
+source_node = "53:8782"
+end_distance_m = 4300000000000.0
+night = true
+helmet = true
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/ice_giants.json"

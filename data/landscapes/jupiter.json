@@ -1,0 +1,136 @@
+{
+  "source_node": "36:2215",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Jupiter/Galilean moons",
+      "artwork": "4ddec.svg",
+      "x": 124,
+      "y": 40,
+      "width": 41,
+      "height": 8,
+      "motion": 4
+    },
+    {
+      "name": "Jupiter/Great storm",
+      "artwork": "1e9a4.svg",
+      "x": 236,
+      "y": 94,
+      "width": 100,
+      "height": 40,
+      "motion": 4
+    },
+    {
+      "name": "Jupiter/Lightning",
+      "artwork": "edac6.svg",
+      "x": 76,
+      "y": 62,
+      "width": 12,
+      "height": 26,
+      "motion": 4
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": -32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Jupiter/Cloud band tile",
+      "artwork": "59f9b.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    }
+  ]
+}

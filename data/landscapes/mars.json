@@ -1,0 +1,55 @@
+{
+  "source_node": "36:2029",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Mars/Small moons",
+      "artwork": "d3d0b.svg",
+      "x": 124,
+      "y": 14,
+      "width": 20,
+      "height": 10,
+      "motion": 4
+    },
+    {
+      "name": "Mars/Shield volcano",
+      "artwork": "bbefc.svg",
+      "x": 236,
+      "y": 119,
+      "width": 128,
+      "height": 30,
+      "motion": 4
+    },
+    {
+      "name": "Mars/Mesa range",
+      "artwork": "693e7.svg",
+      "x": 150,
+      "y": 107,
+      "width": 160,
+      "height": 42,
+      "motion": 4
+    },
+    {
+      "name": "Mars/Rock pile",
+      "artwork": "94898.svg",
+      "x": 150,
+      "y": 137,
+      "width": 22,
+      "height": 12,
+      "motion": 4
+    },
+    {
+      "name": "Mars/Habitat",
+      "artwork": "b7af2.svg",
+      "x": 26,
+      "y": 129,
+      "width": 62,
+      "height": 20,
+      "motion": 4
+    }
+  ]
+}

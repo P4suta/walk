@@ -1,0 +1,190 @@
+{
+  "source_node": "53:12665",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 230,
+      "y": 44,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 0,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 64,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 128,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 192,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 256,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Red earth tile",
+      "artwork": "11a3e.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Oceania/Harbour Bridge",
+      "artwork": "562b2.svg",
+      "x": -37,
+      "y": 120,
+      "width": 113,
+      "height": 29,
+      "motion": 4
+    },
+    {
+      "name": "Oceania/Kangaroo",
+      "artwork": "a5898.svg",
+      "x": 140,
+      "y": 118,
+      "width": 27,
+      "height": 31,
+      "motion": 4
+    },
+    {
+      "name": "Oceania/Koala",
+      "artwork": "de527.svg",
+      "x": 252,
+      "y": 105,
+      "width": 29,
+      "height": 44,
+      "motion": 4
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "荷車"
+artwork = "res://assets/art/d98dc.svg"
+artwork_size = Vector2i(34, 21)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "騎士"
+artwork = "res://assets/art/edb34.svg"
+artwork_size = Vector2i(22, 34)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "投石機"
+artwork = "res://assets/art/e0544.svg"
+artwork_size = Vector2i(44, 46)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "大聖堂"
+artwork = "res://assets/art/52da8.svg"
+artwork_size = Vector2i(37, 70)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "城"
+artwork = "res://assets/art/d80ec.svg"
+artwork_size = Vector2i(84, 86)
+
+[resource]
+script = ExtResource("1")
+key = "castle_age"
+title = "城の時代"
+source_node = "53:9733"
+end_distance_m = 1200000000000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/castle_age.json"

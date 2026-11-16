@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "トーテムポール"
+artwork = "res://assets/art/3a828.svg"
+artwork_size = Vector2i(23, 61)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "ナイアガラの滝"
+artwork = "res://assets/art/ed2af.svg"
+artwork_size = Vector2i(87, 35)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "自由の女神"
+artwork = "res://assets/art/6aa89.svg"
+artwork_size = Vector2i(37, 72)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "摩天楼"
+artwork = "res://assets/art/2c5ca.svg"
+artwork_size = Vector2i(43, 88)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "連邦議会議事堂"
+artwork = "res://assets/art/35f6a.svg"
+artwork_size = Vector2i(91, 56)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "サボテン"
+artwork = "res://assets/art/a4467.svg"
+artwork_size = Vector2i(24, 46)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "モニュメント・バレー"
+artwork = "res://assets/art/879d7.svg"
+artwork_size = Vector2i(84, 38)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "ゴールデンゲート橋"
+artwork = "res://assets/art/43348.svg"
+artwork_size = Vector2i(119, 55)
+
+[resource]
+script = ExtResource("1")
+key = "north_america"
+title = "北アメリカ"
+source_node = "53:7193"
+end_distance_m = 140000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/north_america.json"

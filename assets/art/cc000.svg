@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="North America/Prairie tile" clip-path="url(#clip0_0_254)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM5 4H6V5H5V4ZM7 4H8V5H7V4ZM9 4H10V5H9V4ZM6 5H9V6H6V5ZM7 6H8V7H7V6ZM20 11H21V12H20V11ZM22 11H23V12H22V11ZM24 11H25V12H24V11ZM21 12H24V13H21V12ZM22 13H23V14H22V13ZM11 19H12V20H11V19ZM13 19H14V20H13V19ZM15 19H16V20H15V19ZM12 20H15V21H12V20ZM13 21H14V22H13V21ZM26 26H27V27H26V26ZM28 26H29V27H28V26ZM30 26H31V27H30V26ZM27 27H30V28H27V27ZM28 28H29V29H28V28Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_254">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

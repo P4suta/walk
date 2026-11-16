@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "墓石"
+artwork = "res://assets/art/fa368.svg"
+artwork_size = Vector2i(45, 23)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "かぼちゃのランタン"
+artwork = "res://assets/art/4387c.svg"
+artwork_size = Vector2i(29, 25)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "おばけ"
+artwork = "res://assets/art/74350.svg"
+artwork_size = Vector2i(23, 29)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "魔女の大なべ"
+artwork = "res://assets/art/6acdc.svg"
+artwork_size = Vector2i(42, 35)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "おばけ屋敷"
+artwork = "res://assets/art/c1324.svg"
+artwork_size = Vector2i(57, 48)
+
+[resource]
+script = ExtResource("1")
+key = "haunted_forest"
+title = "おばけの森"
+source_node = "53:11141"
+end_distance_m = 2000000000000000000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/haunted_forest.json"

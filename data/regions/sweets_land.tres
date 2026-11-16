@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "ぺろぺろキャンディ"
+artwork = "res://assets/art/1fb99.svg"
+artwork_size = Vector2i(16, 38)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "キャンディのつえ"
+artwork = "res://assets/art/d3fdd.svg"
+artwork_size = Vector2i(16, 32)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "ドーナツ"
+artwork = "res://assets/art/189a6.svg"
+artwork_size = Vector2i(20, 12)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "プリンの山"
+artwork = "res://assets/art/4f805.svg"
+artwork_size = Vector2i(39, 31)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "ケーキの家"
+artwork = "res://assets/art/0e0a8.svg"
+artwork_size = Vector2i(60, 58)
+
+[resource]
+script = ExtResource("1")
+key = "sweets_land"
+title = "お菓子の国"
+source_node = "53:10391"
+end_distance_m = 14000000000000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/sweets_land.json"

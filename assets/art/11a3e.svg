@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Oceania/Red earth tile" clip-path="url(#clip0_0_310)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM6 5H8V6H6V5ZM20 6H21V7H20V6ZM14 11H17V12H14V11ZM27 12H28V13H27V12ZM3 17H4V18H3V17ZM22 18H24V19H22V18ZM10 24H11V25H10V24ZM17 25H20V26H17V25ZM28 29H30V30H28V29Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_310">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

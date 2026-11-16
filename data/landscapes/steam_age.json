@@ -1,0 +1,181 @@
+{
+  "source_node": "53:13338",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 230,
+      "y": 44,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Steam age/Factory skyline",
+      "artwork": "3d352.svg",
+      "x": 0,
+      "y": 123,
+      "width": 96,
+      "height": 26,
+      "motion": 1
+    },
+    {
+      "name": "Steam age/Factory skyline",
+      "artwork": "3d352.svg",
+      "x": 96,
+      "y": 123,
+      "width": 96,
+      "height": 26,
+      "motion": 1
+    },
+    {
+      "name": "Steam age/Factory skyline",
+      "artwork": "3d352.svg",
+      "x": 192,
+      "y": 123,
+      "width": 96,
+      "height": 26,
+      "motion": 1
+    },
+    {
+      "name": "Steam age/Factory skyline",
+      "artwork": "3d352.svg",
+      "x": 288,
+      "y": 123,
+      "width": 96,
+      "height": 26,
+      "motion": 1
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Rail tile",
+      "artwork": "13742.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Steam age/Gas lamp",
+      "artwork": "c807f.svg",
+      "x": 49,
+      "y": 103,
+      "width": 11,
+      "height": 46,
+      "motion": 4
+    },
+    {
+      "name": "Steam age/Penny-farthing",
+      "artwork": "c36cb.svg",
+      "x": 156,
+      "y": 105,
+      "width": 39,
+      "height": 44,
+      "motion": 4
+    },
+    {
+      "name": "Steam age/Steam locomotive",
+      "artwork": "c8037.svg",
+      "x": 268,
+      "y": 108,
+      "width": 84,
+      "height": 41,
+      "motion": 4
+    }
+  ]
+}

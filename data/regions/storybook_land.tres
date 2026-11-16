@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "岩にささった剣"
+artwork = "res://assets/art/21641.svg"
+artwork_size = Vector2i(27, 36)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "魔法のランプ"
+artwork = "res://assets/art/fba8c.svg"
+artwork_size = Vector2i(36, 41)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "ユニコーン"
+artwork = "res://assets/art/35f51.svg"
+artwork_size = Vector2i(47, 39)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "かぼちゃの馬車"
+artwork = "res://assets/art/9bd19.svg"
+artwork_size = Vector2i(51, 37)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "魔法使いの塔"
+artwork = "res://assets/art/9763b.svg"
+artwork_size = Vector2i(30, 65)
+
+[resource]
+script = ExtResource("1")
+key = "storybook_land"
+title = "絵本の国"
+source_node = "53:11264"
+end_distance_m = 5000000000000000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/storybook_land.json"

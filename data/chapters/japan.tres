@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ChapterDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/chapter_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="2"]
+[ext_resource type="Resource" path="res://data/regions/residential.tres" id="region_0"]
+[ext_resource type="Resource" path="res://data/regions/rice_fields.tres" id="region_1"]
+[ext_resource type="Resource" path="res://data/regions/forest.tres" id="region_2"]
+[ext_resource type="Resource" path="res://data/regions/mountain_path.tres" id="region_3"]
+[ext_resource type="Resource" path="res://data/regions/seaside.tres" id="region_4"]
+
+[resource]
+script = ExtResource("1")
+title = "日本"
+source_origin_m = 0.0
+gate_price = 20000
+gate_multiplier = 10.0
+regions = Array[ExtResource("2")]([ExtResource("region_0"), ExtResource("region_1"), ExtResource("region_2"), ExtResource("region_3"), ExtResource("region_4")])

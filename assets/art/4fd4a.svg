@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="East Asia/Stone path tile" clip-path="url(#clip0_0_250)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="black"/>
+<path id="ink" d="M0 0H32V1H0V0ZM2 6H11V7H2V6ZM1 7H2V8H1V7ZM11 7H12V8H11V7ZM16 9H27V10H16V9ZM15 10H16V11H15V10ZM27 10H28V11H27V10ZM6 16H18V17H6V16ZM5 17H6V18H5V17ZM18 17H19V18H18V17ZM22 19H30V20H22V19ZM21 20H22V21H21V20ZM30 20H31V21H30V20ZM3 25H13V26H3V25ZM2 26H3V27H2V26ZM13 26H14V27H13V26ZM18 27H29V28H18V27ZM17 28H18V29H17V28ZM29 28H30V29H29V28Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_0_250">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

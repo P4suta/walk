@@ -1,0 +1,172 @@
+{
+  "source_node": "37:2703",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud A",
+      "artwork": "83f3e.svg",
+      "x": 214,
+      "y": 40,
+      "width": 44,
+      "height": 16,
+      "motion": 0
+    },
+    {
+      "name": "Toy land/Block skyline",
+      "artwork": "f30d9.svg",
+      "x": 0,
+      "y": 119,
+      "width": 160,
+      "height": 30,
+      "motion": 1
+    },
+    {
+      "name": "Toy land/Block skyline",
+      "artwork": "f30d9.svg",
+      "x": 160,
+      "y": 119,
+      "width": 160,
+      "height": 30,
+      "motion": 1
+    },
+    {
+      "name": "Toy land/Block tower",
+      "artwork": "2e889.svg",
+      "x": 28,
+      "y": 89,
+      "width": 40,
+      "height": 60,
+      "motion": 4
+    },
+    {
+      "name": "Toy land/Toy soldier",
+      "artwork": "c049c.svg",
+      "x": 148,
+      "y": 113,
+      "width": 16,
+      "height": 36,
+      "motion": 4
+    },
+    {
+      "name": "Toy land/Rocking horse",
+      "artwork": "8e37a.svg",
+      "x": 260,
+      "y": 119,
+      "width": 36,
+      "height": 30,
+      "motion": 4
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": -32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Toy land/Plank floor tile",
+      "artwork": "e2f8e.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    }
+  ]
+}

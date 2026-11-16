@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Inner planets/Baked tile" clip-path="url(#clip0_0_100)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM10 1H11V9H10V1ZM4 9H19V10H4V9ZM5 10H6V18H5V10ZM18 10H19V20H18V10ZM27 12H32V13H27V12ZM27 13H28V20H27V13ZM0 18H6V19H0V18ZM10 20H28V21H10V20ZM14 21H15V32H14V21ZM23 21H24V27H23V21ZM23 27H32V28H23V27Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_100">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Steam age/Rail tile" clip-path="url(#clip0_0_182)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V2H0V0ZM2 3H5V7H2V3ZM10 3H13V7H10V3ZM18 3H21V7H18V3ZM26 3H29V7H26V3ZM0 7H32V8H0V7ZM5 12H6V13H5V12ZM17 12H18V13H17V12ZM27 12H28V13H27V12ZM12 18H13V19H12V18ZM26 18H27V19H26V18ZM3 25H4V26H3V25ZM20 25H21V26H20V25ZM28 25H29V26H28V25Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_182">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

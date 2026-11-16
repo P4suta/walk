@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="ChapterDef" load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/chapter_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="2"]
+[ext_resource type="Resource" path="res://data/regions/earth_orbit.tres" id="region_0"]
+[ext_resource type="Resource" path="res://data/regions/moon.tres" id="region_1"]
+[ext_resource type="Resource" path="res://data/regions/inner_planets.tres" id="region_2"]
+[ext_resource type="Resource" path="res://data/regions/mars.tres" id="region_3"]
+[ext_resource type="Resource" path="res://data/regions/asteroid_belt.tres" id="region_4"]
+[ext_resource type="Resource" path="res://data/regions/jupiter.tres" id="region_5"]
+[ext_resource type="Resource" path="res://data/regions/saturn.tres" id="region_6"]
+[ext_resource type="Resource" path="res://data/regions/ice_giants.tres" id="region_7"]
+[ext_resource type="Resource" path="res://data/regions/deep_space.tres" id="region_8"]
+
+[resource]
+script = ExtResource("1")
+title = "宇宙"
+source_origin_m = 280000000.0
+gate_price = 600000
+gate_multiplier = 1000.0
+regions = Array[ExtResource("2")]([ExtResource("region_0"), ExtResource("region_1"), ExtResource("region_2"), ExtResource("region_3"), ExtResource("region_4"), ExtResource("region_5"), ExtResource("region_6"), ExtResource("region_7"), ExtResource("region_8")])

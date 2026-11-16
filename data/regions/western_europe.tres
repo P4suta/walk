@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "エッフェル塔"
+artwork = "res://assets/art/51176.svg"
+artwork_size = Vector2i(46, 96)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "パリのカフェ"
+artwork = "res://assets/art/c33e0.svg"
+artwork_size = Vector2i(26, 16)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "凱旋門"
+artwork = "res://assets/art/2f6a8.svg"
+artwork_size = Vector2i(43, 46)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "モン・サン・ミシェル"
+artwork = "res://assets/art/2980a.svg"
+artwork_size = Vector2i(79, 62)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "ストーンヘンジ"
+artwork = "res://assets/art/d360b.svg"
+artwork_size = Vector2i(72, 28)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "二階建てバス"
+artwork = "res://assets/art/47efe.svg"
+artwork_size = Vector2i(48, 30)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "ビッグ・ベン"
+artwork = "res://assets/art/35ed6.svg"
+artwork_size = Vector2i(17, 88)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "タワーブリッジ"
+artwork = "res://assets/art/8d2b7.svg"
+artwork_size = Vector2i(95, 60)
+
+[resource]
+script = ExtResource("1")
+key = "western_europe"
+title = "西ヨーロッパ"
+source_node = "53:6752"
+end_distance_m = 74000000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/western_europe.json"

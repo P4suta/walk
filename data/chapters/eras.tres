@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ChapterDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/chapter_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="2"]
+[ext_resource type="Resource" path="res://data/regions/dinosaur_age.tres" id="region_0"]
+[ext_resource type="Resource" path="res://data/regions/ice_age.tres" id="region_1"]
+[ext_resource type="Resource" path="res://data/regions/stone_age.tres" id="region_2"]
+[ext_resource type="Resource" path="res://data/regions/ancient_world.tres" id="region_3"]
+[ext_resource type="Resource" path="res://data/regions/castle_age.tres" id="region_4"]
+[ext_resource type="Resource" path="res://data/regions/feudal_highway.tres" id="region_5"]
+[ext_resource type="Resource" path="res://data/regions/steam_age.tres" id="region_6"]
+[ext_resource type="Resource" path="res://data/regions/future_city.tres" id="region_7"]
+
+[resource]
+script = ExtResource("1")
+title = "時代"
+source_origin_m = 25000000000000.0
+gate_price = 2000000
+gate_multiplier = 1000.0
+regions = Array[ExtResource("2")]([ExtResource("region_0"), ExtResource("region_1"), ExtResource("region_2"), ExtResource("region_3"), ExtResource("region_4"), ExtResource("region_5"), ExtResource("region_6"), ExtResource("region_7")])

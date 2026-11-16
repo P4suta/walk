@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Haunted forest/Mist tile" clip-path="url(#clip0_0_160)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="black"/>
+<path id="ink" d="M0 0H32V1H0V0ZM2 6H8V7H2V6ZM16 6H22V7H16V6ZM8 7H16V8H8V7ZM22 7H30V8H22V7ZM10 16H18V17H10V16ZM24 16H30V17H24V16ZM2 17H10V18H2V17ZM24 17H32V18H24V17ZM4 26H10V27H4V26ZM20 26H28V27H20V26ZM14 27H22V28H14V27ZM26 27H32V28H26V27Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_0_160">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

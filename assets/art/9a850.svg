@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Ice age/Snow tile" clip-path="url(#clip0_0_181)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM12 4H13V5H12V4ZM27 6H28V7H27V6ZM3 8H10V9H3V8ZM2 9H3V10H2V9ZM18 13H27V14H18V13ZM17 14H18V15H17V14ZM2 15H3V16H2V15ZM14 18H15V19H14V18ZM29 20H30V21H29V20ZM6 22H14V23H6V22ZM5 23H6V24H5V23ZM21 27H28V28H21V27ZM11 28H12V29H11V28ZM20 28H21V29H20V28Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_181">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

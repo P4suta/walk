@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "大きな太陽"
+artwork = "res://assets/art/cf7c8.svg"
+artwork_size = Vector2i(47, 47)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "水星のクレーター"
+artwork = "res://assets/art/f078e.svg"
+artwork_size = Vector2i(51, 17)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "金星の火山"
+artwork = "res://assets/art/daa1b.svg"
+artwork_size = Vector2i(69, 44)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "金星の探査機"
+artwork = "res://assets/art/30a80.svg"
+artwork_size = Vector2i(25, 26)
+
+[resource]
+script = ExtResource("1")
+key = "inner_planets"
+title = "金星と水星"
+source_node = "53:8116"
+end_distance_m = 41000000000.0
+night = false
+helmet = true
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3")])
+landscape = "res://data/landscapes/inner_planets.json"

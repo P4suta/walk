@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "アンコール・ワット"
+artwork = "res://assets/art/f7181.svg"
+artwork_size = Vector2i(99, 51)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "ハロン湾"
+artwork = "res://assets/art/3fa3d.svg"
+artwork_size = Vector2i(83, 43)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "高床の家"
+artwork = "res://assets/art/60bcf.svg"
+artwork_size = Vector2i(37, 44)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "ワット・アルン"
+artwork = "res://assets/art/9d428.svg"
+artwork_size = Vector2i(53, 76)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "バガンの仏塔"
+artwork = "res://assets/art/90e71.svg"
+artwork_size = Vector2i(41, 50)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "棚田"
+artwork = "res://assets/art/660da.svg"
+artwork_size = Vector2i(84, 41)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "ボロブドゥール"
+artwork = "res://assets/art/6f286.svg"
+artwork_size = Vector2i(95, 42)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "バリの割れ門"
+artwork = "res://assets/art/651ca.svg"
+artwork_size = Vector2i(48, 50)
+
+[resource]
+script = ExtResource("1")
+key = "southeast_asia"
+title = "東南アジア"
+source_node = "53:5630"
+end_distance_m = 4200000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/southeast_asia.json"

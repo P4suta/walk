@@ -1,0 +1,8 @@
+name = "Walk"
+summary = "A pixel art walking game through 248 sights"
+install = """
+mise trust
+mise install godot rust python uv pipx:gdtoolkit"""
+usage = "mise run play"
+copyright = "Yasunobu"
+license = "MIT OR Apache-2.0"

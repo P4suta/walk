@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "万里の長城"
+artwork = "res://assets/art/48e0f.svg"
+artwork_size = Vector2i(55, 44)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "紫禁城"
+artwork = "res://assets/art/abbfd.svg"
+artwork_size = Vector2i(79, 44)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "天壇"
+artwork = "res://assets/art/2e428.svg"
+artwork_size = Vector2i(59, 53)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "パンダ"
+artwork = "res://assets/art/ac438.svg"
+artwork_size = Vector2i(27, 26)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "仏塔"
+artwork = "res://assets/art/68266.svg"
+artwork_size = Vector2i(36, 68)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "ポタラ宮"
+artwork = "res://assets/art/de565.svg"
+artwork_size = Vector2i(87, 51)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "ソウルの南大門"
+artwork = "res://assets/art/740fd.svg"
+artwork_size = Vector2i(67, 44)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "草原のゲル"
+artwork = "res://assets/art/dedc6.svg"
+artwork_size = Vector2i(41, 25)
+
+[resource]
+script = ExtResource("1")
+key = "east_asia"
+title = "東アジア"
+source_node = "53:5402"
+end_distance_m = 1300000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/east_asia.json"

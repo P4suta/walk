@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Sea floor/Seabed tile" clip-path="url(#clip0_0_105)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="black"/>
+<path id="ink" d="M0 0H32V1H0V0ZM9 5H10V6H9V5ZM13 5H14V6H13V5ZM4 6H9V7H4V6ZM25 8H26V9H25V8ZM20 9H25V10H20V9ZM28 14H29V15H28V14ZM3 15H4V16H3V15ZM16 16H17V17H16V16ZM11 17H16V18H11V17ZM31 20H32V21H31V20ZM26 21H31V22H26V21ZM15 25H19V27H15V25ZM11 26H12V27H11V26ZM6 27H11V28H6V27ZM22 29H23V30H22V29Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_0_105">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

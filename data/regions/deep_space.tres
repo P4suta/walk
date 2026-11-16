@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "ボイジャー探査機"
+artwork = "res://assets/art/9a813.svg"
+artwork_size = Vector2i(61, 30)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "星雲"
+artwork = "res://assets/art/c8d08.svg"
+artwork_size = Vector2i(50, 41)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "空飛ぶ円盤"
+artwork = "res://assets/art/301a1.svg"
+artwork_size = Vector2i(39, 36)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "うずまき銀河"
+artwork = "res://assets/art/839e2.svg"
+artwork_size = Vector2i(53, 35)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "ブラックホール"
+artwork = "res://assets/art/ddf87.svg"
+artwork_size = Vector2i(55, 27)
+
+[resource]
+script = ExtResource("1")
+key = "deep_space"
+title = "星の海"
+source_node = "53:8976"
+end_distance_m = 25000000000000.0
+night = true
+helmet = true
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/deep_space.json"

@@ -1,0 +1,181 @@
+{
+  "source_node": "53:12527",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 230,
+      "y": 44,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Latin America/Andes",
+      "artwork": "f6ff8.svg",
+      "x": 0,
+      "y": 129,
+      "width": 96,
+      "height": 20,
+      "motion": 4
+    },
+    {
+      "name": "Latin America/Andes",
+      "artwork": "f6ff8.svg",
+      "x": 96,
+      "y": 129,
+      "width": 96,
+      "height": 20,
+      "motion": 4
+    },
+    {
+      "name": "Latin America/Andes",
+      "artwork": "f6ff8.svg",
+      "x": 192,
+      "y": 129,
+      "width": 96,
+      "height": 20,
+      "motion": 4
+    },
+    {
+      "name": "Latin America/Andes",
+      "artwork": "f6ff8.svg",
+      "x": 288,
+      "y": 129,
+      "width": 96,
+      "height": 20,
+      "motion": 4
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Highland tile",
+      "artwork": "68be3.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Latin America/Machu Picchu",
+      "artwork": "ac34a.svg",
+      "x": -12,
+      "y": 100,
+      "width": 88,
+      "height": 49,
+      "motion": 4
+    },
+    {
+      "name": "Latin America/Llama",
+      "artwork": "85990.svg",
+      "x": 140,
+      "y": 118,
+      "width": 24,
+      "height": 31,
+      "motion": 4
+    },
+    {
+      "name": "Latin America/Nazca lines",
+      "artwork": "f0865.svg",
+      "x": 252,
+      "y": 114,
+      "width": 70,
+      "height": 35,
+      "motion": 4
+    }
+  ]
+}

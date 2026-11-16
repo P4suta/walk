@@ -1,0 +1,163 @@
+{
+  "source_node": "53:13206",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 230,
+      "y": 44,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Desert lands/Dunes",
+      "artwork": "4cb6d.svg",
+      "x": 0,
+      "y": 127,
+      "width": 160,
+      "height": 22,
+      "motion": 4
+    },
+    {
+      "name": "Desert lands/Dunes",
+      "artwork": "4cb6d.svg",
+      "x": 160,
+      "y": 127,
+      "width": 160,
+      "height": 22,
+      "motion": 4
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Flagstone tile",
+      "artwork": "4d791.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Ancient world/Ziggurat",
+      "artwork": "63168.svg",
+      "x": -11,
+      "y": 111,
+      "width": 79,
+      "height": 38,
+      "motion": 4
+    },
+    {
+      "name": "Ancient world/Trojan horse",
+      "artwork": "3539c.svg",
+      "x": 148,
+      "y": 94,
+      "width": 43,
+      "height": 55,
+      "motion": 4
+    },
+    {
+      "name": "Ancient world/Aqueduct",
+      "artwork": "6fa9f.svg",
+      "x": 260,
+      "y": 111,
+      "width": 98,
+      "height": 38,
+      "motion": 4
+    }
+  ]
+}

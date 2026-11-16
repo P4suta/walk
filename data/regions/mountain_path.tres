@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "道しるべ"
+artwork = "res://assets/art/efef0.svg"
+artwork_size = Vector2i(16, 28)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "大岩"
+artwork = "res://assets/art/5210d.svg"
+artwork_size = Vector2i(24, 13)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "峠の茶屋"
+artwork = "res://assets/art/634d5.svg"
+artwork_size = Vector2i(56, 42)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "つり橋"
+artwork = "res://assets/art/b1e2b.svg"
+artwork_size = Vector2i(71, 30)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "温泉"
+artwork = "res://assets/art/cc008.svg"
+artwork_size = Vector2i(44, 29)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "ロープウェイ"
+artwork = "res://assets/art/46950.svg"
+artwork_size = Vector2i(60, 52)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "山小屋"
+artwork = "res://assets/art/fa7ca.svg"
+artwork_size = Vector2i(44, 40)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "富士山"
+artwork = "res://assets/art/5b1b5.svg"
+artwork_size = Vector2i(128, 60)
+
+[resource]
+script = ExtResource("1")
+key = "mountain_path"
+title = "山道"
+source_node = "53:4592"
+end_distance_m = 480000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/mountain_path.json"

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "タージ・マハル"
+artwork = "res://assets/art/2d382.svg"
+artwork_size = Vector2i(100, 74)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "インド門"
+artwork = "res://assets/art/22477.svg"
+artwork_size = Vector2i(29, 52)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "くじゃく"
+artwork = "res://assets/art/60cf7.svg"
+artwork_size = Vector2i(37, 28)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "コブラ"
+artwork = "res://assets/art/e3f6f.svg"
+artwork_size = Vector2i(19, 32)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "シーギリヤ・ロック"
+artwork = "res://assets/art/728eb.svg"
+artwork_size = Vector2i(79, 42)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "カトマンズの仏塔"
+artwork = "res://assets/art/a969c.svg"
+artwork_size = Vector2i(59, 51)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "タクツァン僧院"
+artwork = "res://assets/art/90212.svg"
+artwork_size = Vector2i(53, 58)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "エベレスト"
+artwork = "res://assets/art/6f80f.svg"
+artwork_size = Vector2i(84, 54)
+
+[resource]
+script = ExtResource("1")
+key = "south_asia"
+title = "南アジア"
+source_node = "53:5843"
+end_distance_m = 9800000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/south_asia.json"

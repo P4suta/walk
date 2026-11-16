@@ -1,0 +1,145 @@
+{
+  "source_node": "36:1653",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Savanna/Elephant",
+      "artwork": "4ba2c.svg",
+      "x": 140,
+      "y": 113,
+      "width": 50,
+      "height": 36,
+      "motion": 4
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": -32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Grass tile",
+      "artwork": "e9a7b.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Savanna/Zebra",
+      "artwork": "26337.svg",
+      "x": 56,
+      "y": 121,
+      "width": 32,
+      "height": 28,
+      "motion": 4
+    },
+    {
+      "name": "Savanna/Lion",
+      "artwork": "966a2.svg",
+      "x": 252,
+      "y": 125,
+      "width": 38,
+      "height": 24,
+      "motion": 4
+    }
+  ]
+}

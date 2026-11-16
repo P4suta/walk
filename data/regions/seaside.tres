@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "松の木"
+artwork = "res://assets/art/07767.svg"
+artwork_size = Vector2i(52, 56)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "漁船"
+artwork = "res://assets/art/d42ee.svg"
+artwork_size = Vector2i(46, 26)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "防波堤"
+artwork = "res://assets/art/0fb0d.svg"
+artwork_size = Vector2i(48, 12)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "消波ブロック"
+artwork = "res://assets/art/f13c2.svg"
+artwork_size = Vector2i(18, 16)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "海の家"
+artwork = "res://assets/art/205df.svg"
+artwork_size = Vector2i(53, 40)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "釣り人"
+artwork = "res://assets/art/3f98d.svg"
+artwork_size = Vector2i(52, 35)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "海の大鳥居"
+artwork = "res://assets/art/93c9e.svg"
+artwork_size = Vector2i(65, 51)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "灯台"
+artwork = "res://assets/art/6426c.svg"
+artwork_size = Vector2i(26, 76)
+
+[resource]
+script = ExtResource("1")
+key = "seaside"
+title = "海辺"
+source_node = "53:5071"
+end_distance_m = 1150000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/seaside.json"

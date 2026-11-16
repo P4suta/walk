@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "ガス灯"
+artwork = "res://assets/art/c807f.svg"
+artwork_size = Vector2i(11, 46)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "だるま自転車"
+artwork = "res://assets/art/c36cb.svg"
+artwork_size = Vector2i(39, 44)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "蒸気機関車"
+artwork = "res://assets/art/c8037.svg"
+artwork_size = Vector2i(84, 41)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "外輪船"
+artwork = "res://assets/art/c3c7e.svg"
+artwork_size = Vector2i(85, 42)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "複葉機"
+artwork = "res://assets/art/88b64.svg"
+artwork_size = Vector2i(51, 21)
+
+[resource]
+script = ExtResource("1")
+key = "steam_age"
+title = "蒸気の時代"
+source_node = "53:10055"
+end_distance_m = 6000000000000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/steam_age.json"

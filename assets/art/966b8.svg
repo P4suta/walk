@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Moon/Regolith tile" clip-path="url(#clip0_0_151)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="black"/>
+<path id="ink" d="M0 0H32V1H0V0ZM17 5H18V6H17V5ZM29 6H30V7H29V6ZM5 7H11V8H5V7ZM4 8H5V10H4V8ZM11 8H12V10H11V8ZM5 10H11V11H5V10ZM20 13H26V14H20V13ZM18 14H20V16H18V14ZM26 14H28V16H26V14ZM3 16H4V17H3V16ZM20 16H26V17H20V16ZM19 20H20V21H19V20ZM8 23H14V25H8V23ZM23 26H29V28H23V26ZM5 29H6V30H5V29Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_0_151">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "アカシア"
+artwork = "res://assets/art/c8fea.svg"
+artwork_size = Vector2i(72, 50)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "キリン"
+artwork = "res://assets/art/5b386.svg"
+artwork_size = Vector2i(32, 56)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "シマウマ"
+artwork = "res://assets/art/26337.svg"
+artwork_size = Vector2i(32, 28)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "ゾウ"
+artwork = "res://assets/art/4ba2c.svg"
+artwork_size = Vector2i(50, 36)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "ライオン"
+artwork = "res://assets/art/966a2.svg"
+artwork_size = Vector2i(38, 24)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "バオバブ"
+artwork = "res://assets/art/6ec38.svg"
+artwork_size = Vector2i(43, 52)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "ビクトリアの滝"
+artwork = "res://assets/art/c8b6c.svg"
+artwork_size = Vector2i(83, 44)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "キリマンジャロ"
+artwork = "res://assets/art/9ca74.svg"
+artwork_size = Vector2i(128, 40)
+
+[resource]
+script = ExtResource("1")
+key = "savanna"
+title = "サバンナ"
+source_node = "53:6224"
+end_distance_m = 32000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/savanna.json"

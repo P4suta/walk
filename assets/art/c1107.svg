@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Forest/Floor tile" clip-path="url(#clip0_0_139)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM27 4H28V5H27V4ZM4 5H5V6H4V5ZM28 5H30V6H28V5ZM5 6H7V7H5V6ZM17 8H18V9H17V8ZM18 9H20V10H18V9ZM3 11H6V12H3V11ZM0 12H3V13H0V12ZM10 15H11V16H10V15ZM11 16H13V17H11V16ZM23 19H24V20H23V19ZM24 20H26V21H24V20ZM20 23H23V24H20V23ZM5 24H6V25H5V24ZM23 24H27V25H23V24ZM6 25H8V26H6V25ZM15 27H16V28H15V27ZM16 28H18V29H16V28ZM27 28H28V29H27V28ZM28 29H30V30H28V29Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_139">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

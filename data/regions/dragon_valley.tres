@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "骨のアーチ"
+artwork = "res://assets/art/4f8a7.svg"
+artwork_size = Vector2i(46, 30)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "くずれた塔"
+artwork = "res://assets/art/d42fb.svg"
+artwork_size = Vector2i(36, 56)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "竜のたまご"
+artwork = "res://assets/art/34720.svg"
+artwork_size = Vector2i(23, 27)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "宝の山"
+artwork = "res://assets/art/46dd7.svg"
+artwork_size = Vector2i(28, 14)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "竜"
+artwork = "res://assets/art/e898f.svg"
+artwork_size = Vector2i(88, 58)
+
+[resource]
+script = ExtResource("1")
+key = "dragon_valley"
+title = "竜の谷"
+source_node = "53:11480"
+end_distance_m = 12000000000000000000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/dragon_valley.json"

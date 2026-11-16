@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Dinosaur age/Swamp tile" clip-path="url(#clip0_0_147)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM14 5H20V6H14V5ZM5 6H7V7H5V6ZM3 7H4V8H3V7ZM8 7H9V8H8V7ZM5 8H7V11H5V8ZM21 14H23V15H21V14ZM19 15H20V16H19V15ZM24 15H25V16H24V15ZM21 16H23V19H21V16ZM2 17H7V18H2V17ZM9 23H11V24H9V23ZM7 24H8V25H7V24ZM12 24H13V25H12V24ZM9 25H11V28H9V25ZM22 26H29V27H22V26Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_147">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

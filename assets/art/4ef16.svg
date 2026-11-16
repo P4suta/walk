@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Asteroid belt/Rock small">
+<path id="paper" d="M4 0H5V1H4V0ZM3 1H7V2H3V1ZM2 2H8V3H2V2ZM1 3H9V4H1V3ZM2 4H9V5H2V4ZM2 5H8V6H2V5ZM3 6H8V7H3V6Z" fill="black"/>
+<path id="ink" d="M4 0H5V1H4V0ZM3 1H4V2H3V1ZM5 1H7V2H5V1ZM2 2H3V3H2V2ZM7 2H8V3H7V2ZM1 3H2V4H1V3ZM8 3H9V5H8V3ZM2 4H3V6H2V4ZM5 4H6V5H5V4ZM7 5H8V6H7V5ZM3 6H8V7H3V6Z" fill="white"/>
+</g>
+</svg>

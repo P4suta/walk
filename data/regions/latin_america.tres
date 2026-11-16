@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "チチェン・イッツァ"
+artwork = "res://assets/art/6927f.svg"
+artwork_size = Vector2i(73, 44)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "オオハシ"
+artwork = "res://assets/art/58978.svg"
+artwork_size = Vector2i(34, 28)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "マチュ・ピチュ"
+artwork = "res://assets/art/ac34a.svg"
+artwork_size = Vector2i(88, 49)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "リャマ"
+artwork = "res://assets/art/85990.svg"
+artwork_size = Vector2i(24, 31)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "ナスカの地上絵"
+artwork = "res://assets/art/f0865.svg"
+artwork_size = Vector2i(70, 35)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "イグアスの滝"
+artwork = "res://assets/art/9dd49.svg"
+artwork_size = Vector2i(83, 38)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "リオのキリスト像"
+artwork = "res://assets/art/0f40c.svg"
+artwork_size = Vector2i(45, 66)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "ゾウガメ"
+artwork = "res://assets/art/30ec7.svg"
+artwork_size = Vector2i(38, 18)
+
+[resource]
+script = ExtResource("1")
+key = "latin_america"
+title = "中南米"
+source_node = "53:7421"
+end_distance_m = 200000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/latin_america.json"

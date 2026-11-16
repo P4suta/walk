@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "オランダの風車"
+artwork = "res://assets/art/b3439.svg"
+artwork_size = Vector2i(60, 70)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "チューリップ畑"
+artwork = "res://assets/art/17707.svg"
+artwork_size = Vector2i(32, 14)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "ブランデンブルク門"
+artwork = "res://assets/art/f36c5.svg"
+artwork_size = Vector2i(67, 48)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "ノイシュバンシュタイン城"
+artwork = "res://assets/art/628a9.svg"
+artwork_size = Vector2i(73, 72)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "マッターホルン"
+artwork = "res://assets/art/3ea7d.svg"
+artwork_size = Vector2i(64, 62)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "人魚姫の像"
+artwork = "res://assets/art/14f4f.svg"
+artwork_size = Vector2i(34, 32)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "バイキング船"
+artwork = "res://assets/art/b9d02.svg"
+artwork_size = Vector2i(66, 43)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "聖ワシリイ大聖堂"
+artwork = "res://assets/art/99b3e.svg"
+artwork_size = Vector2i(59, 64)
+
+[resource]
+script = ExtResource("1")
+key = "northern_europe"
+title = "北ヨーロッパ"
+source_node = "53:6965"
+end_distance_m = 100000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/northern_europe.json"

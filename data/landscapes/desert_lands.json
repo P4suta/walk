@@ -1,0 +1,172 @@
+{
+  "source_node": "36:1362",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 230,
+      "y": 44,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Desert lands/Dunes",
+      "artwork": "4cb6d.svg",
+      "x": 0,
+      "y": 127,
+      "width": 160,
+      "height": 22,
+      "motion": 4
+    },
+    {
+      "name": "Desert lands/Dunes",
+      "artwork": "4cb6d.svg",
+      "x": 160,
+      "y": 127,
+      "width": 160,
+      "height": 22,
+      "motion": 4
+    },
+    {
+      "name": "Desert lands/Pyramid",
+      "artwork": "12958.svg",
+      "x": 140,
+      "y": 99,
+      "width": 80,
+      "height": 50,
+      "motion": 4
+    },
+    {
+      "name": "Desert lands/Sphinx",
+      "artwork": "ef627.svg",
+      "x": 40,
+      "y": 121,
+      "width": 48,
+      "height": 28,
+      "motion": 4
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": -32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Sand tile",
+      "artwork": "329a8.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Desert lands/Abu Simbel",
+      "artwork": "1b8a9.svg",
+      "x": 252,
+      "y": 105,
+      "width": 79,
+      "height": 44,
+      "motion": 4
+    }
+  ]
+}

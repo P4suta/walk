@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "オベリスク"
+artwork = "res://assets/art/fd35d.svg"
+artwork_size = Vector2i(15, 60)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "建設中のピラミッド"
+artwork = "res://assets/art/e6692.svg"
+artwork_size = Vector2i(88, 36)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "ジッグラト"
+artwork = "res://assets/art/63168.svg"
+artwork_size = Vector2i(79, 38)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "トロイの木馬"
+artwork = "res://assets/art/3539c.svg"
+artwork_size = Vector2i(43, 55)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "ローマの水道橋"
+artwork = "res://assets/art/6fa9f.svg"
+artwork_size = Vector2i(98, 38)
+
+[resource]
+script = ExtResource("1")
+key = "ancient_world"
+title = "古代文明"
+source_node = "53:9598"
+end_distance_m = 500000000000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/ancient_world.json"

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.svg text
+*.ttf binary
+*.ogg binary
+*.png binary
+addons/gut/** -whitespace
+assets/licenses/** -whitespace

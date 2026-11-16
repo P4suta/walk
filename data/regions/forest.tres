@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "大杉"
+artwork = "res://assets/art/63e02.svg"
+artwork_size = Vector2i(27, 76)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "鳥居"
+artwork = "res://assets/art/b193b.svg"
+artwork_size = Vector2i(50, 47)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "石灯籠"
+artwork = "res://assets/art/a3849.svg"
+artwork_size = Vector2i(18, 29)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "きつねの像"
+artwork = "res://assets/art/d8099.svg"
+artwork_size = Vector2i(22, 35)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "五重塔"
+artwork = "res://assets/art/60de8.svg"
+artwork_size = Vector2i(43, 60)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "大仏"
+artwork = "res://assets/art/185c3.svg"
+artwork_size = Vector2i(49, 49)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "滝"
+artwork = "res://assets/art/8c3f4.svg"
+artwork_size = Vector2i(41, 54)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "切り株"
+artwork = "res://assets/art/9fc87.svg"
+artwork_size = Vector2i(18, 10)
+
+[resource]
+script = ExtResource("1")
+key = "forest"
+title = "森"
+source_node = "53:4370"
+end_distance_m = 62000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/forest.json"

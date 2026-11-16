@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Residential/Road tile" clip-path="url(#clip0_0_136)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="black"/>
+<path id="ink" d="M0 0H32V1H0V0ZM1 4H2V5H1V4ZM5 4H6V5H5V4ZM9 4H10V5H9V4ZM13 4H14V5H13V4ZM17 4H18V5H17V4ZM21 4H22V5H21V4ZM25 4H26V5H25V4ZM29 4H30V5H29V4ZM6 9H7V10H6V9ZM22 11H23V12H22V11ZM4 16H20V18H4V16ZM13 25H14V26H13V25ZM27 27H28V28H27V27ZM3 29H4V30H3V29Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_0_136">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

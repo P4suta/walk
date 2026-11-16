@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="64" height="12" viewBox="0 0 64 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mediterranean/Sea horizon" clip-path="url(#clip0_0_280)">
+<path id="paper" d="M0 0H64V12H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H64V1H0V0ZM4 3H9V4H4V3ZM19 3H23V4H19V3ZM32 3H38V4H32V3ZM46 3H50V4H46V3ZM60 3H64V4H60V3ZM12 6H16V7H12V6ZM26 6H31V7H26V6ZM40 6H44V7H40V6ZM55 6H60V7H55V6ZM2 9H6V10H2V9ZM17 9H22V10H17V9ZM30 9H34V10H30V9ZM46 9H50V10H46V9ZM59 9H64V10H59V9Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_280">
+<rect width="64" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>

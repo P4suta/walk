@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Moon/Flag">
+<path id="paper" d="M2 2H13V9H2V2ZM2 9H3V21H2V9ZM0 21H5V22H0V21Z" fill="black"/>
+<path id="ink" d="M2 2H13V3H2V2ZM2 3H4V4H2V3ZM12 3H13V4H12V3ZM2 4H13V5H2V4ZM2 5H4V6H2V5ZM12 5H13V6H12V5ZM2 6H13V7H2V6ZM2 7H4V8H2V7ZM12 7H13V8H12V7ZM2 8H13V9H2V8ZM2 9H3V21H2V9ZM0 21H5V22H0V21Z" fill="white"/>
+</g>
+</svg>

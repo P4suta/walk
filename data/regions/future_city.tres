@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "ロボット"
+artwork = "res://assets/art/5e668.svg"
+artwork_size = Vector2i(18, 26)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "空飛ぶ車"
+artwork = "res://assets/art/51a0a.svg"
+artwork_size = Vector2i(28, 12)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "モノレール"
+artwork = "res://assets/art/65008.svg"
+artwork_size = Vector2i(160, 26)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "ドーム都市"
+artwork = "res://assets/art/17258.svg"
+artwork_size = Vector2i(58, 34)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "未来の塔"
+artwork = "res://assets/art/c323d.svg"
+artwork_size = Vector2i(30, 100)
+
+[resource]
+script = ExtResource("1")
+key = "future_city"
+title = "未来都市"
+source_node = "53:10249"
+end_distance_m = 12000000000000000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/future_city.json"

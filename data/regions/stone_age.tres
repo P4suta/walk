@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "たて穴住居"
+artwork = "res://assets/art/44cec.svg"
+artwork_size = Vector2i(56, 36)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "縄文土器"
+artwork = "res://assets/art/7585b.svg"
+artwork_size = Vector2i(14, 18)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "たき火"
+artwork = "res://assets/art/e4fcb.svg"
+artwork_size = Vector2i(15, 19)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "土偶"
+artwork = "res://assets/art/7472d.svg"
+artwork_size = Vector2i(23, 30)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "物見やぐら"
+artwork = "res://assets/art/fb74f.svg"
+artwork_size = Vector2i(30, 57)
+
+[resource]
+script = ExtResource("1")
+key = "stone_age"
+title = "縄文時代"
+source_node = "53:9457"
+end_distance_m = 200000000000000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/stone_age.json"

@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "パルテノン神殿"
+artwork = "res://assets/art/8f0f8.svg"
+artwork_size = Vector2i(71, 40)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "サントリーニの教会"
+artwork = "res://assets/art/2e583.svg"
+artwork_size = Vector2i(44, 40)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "アヤソフィア"
+artwork = "res://assets/art/35fe5.svg"
+artwork_size = Vector2i(87, 56)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "コロッセオ"
+artwork = "res://assets/art/25174.svg"
+artwork_size = Vector2i(84, 40)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "真実の口"
+artwork = "res://assets/art/3c6db.svg"
+artwork_size = Vector2i(23, 34)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "ピサの斜塔"
+artwork = "res://assets/art/9a037.svg"
+artwork_size = Vector2i(22, 64)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "ゴンドラ"
+artwork = "res://assets/art/b2c29.svg"
+artwork_size = Vector2i(76, 23)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "サグラダ・ファミリア"
+artwork = "res://assets/art/92f91.svg"
+artwork_size = Vector2i(47, 80)
+
+[resource]
+script = ExtResource("1")
+key = "mediterranean"
+title = "地中海"
+source_node = "53:6473"
+end_distance_m = 50000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/mediterranean.json"

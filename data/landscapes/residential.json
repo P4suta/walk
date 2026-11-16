@@ -1,0 +1,235 @@
+{
+  "source_node": "8:2",
+  "night": false,
+  "traveler": [
+    64,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud A",
+      "artwork": "83f3e.svg",
+      "x": 118,
+      "y": 38,
+      "width": 44,
+      "height": 16,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 254,
+      "y": 44,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Bird",
+      "artwork": "63135.svg",
+      "x": 230,
+      "y": 34,
+      "width": 9,
+      "height": 3,
+      "motion": 0
+    },
+    {
+      "name": "Residential/Distant town",
+      "artwork": "612f3.svg",
+      "x": 0,
+      "y": 127,
+      "width": 160,
+      "height": 22,
+      "motion": 1
+    },
+    {
+      "name": "Residential/Distant town",
+      "artwork": "612f3.svg",
+      "x": 160,
+      "y": 127,
+      "width": 160,
+      "height": 22,
+      "motion": 1
+    },
+    {
+      "name": "Residential/Wire span",
+      "artwork": "2db5c.svg",
+      "x": -126,
+      "y": 76,
+      "width": 160,
+      "height": 14,
+      "motion": 4
+    },
+    {
+      "name": "Residential/Wire span",
+      "artwork": "2db5c.svg",
+      "x": 34,
+      "y": 76,
+      "width": 160,
+      "height": 14,
+      "motion": 4
+    },
+    {
+      "name": "Residential/Wire span",
+      "artwork": "2db5c.svg",
+      "x": 194,
+      "y": 76,
+      "width": 160,
+      "height": 14,
+      "motion": 4
+    },
+    {
+      "name": "Residential/House A",
+      "artwork": "43fc2.svg",
+      "x": 92,
+      "y": 89,
+      "width": 56,
+      "height": 60,
+      "motion": 4
+    },
+    {
+      "name": "Residential/Block wall",
+      "artwork": "6887e.svg",
+      "x": 148,
+      "y": 135,
+      "width": 48,
+      "height": 14,
+      "motion": 4
+    },
+    {
+      "name": "Residential/Block wall",
+      "artwork": "6887e.svg",
+      "x": 286,
+      "y": 135,
+      "width": 48,
+      "height": 14,
+      "motion": 4
+    },
+    {
+      "name": "Residential/Utility pole",
+      "artwork": "fa1ea.svg",
+      "x": 24,
+      "y": 69,
+      "width": 20,
+      "height": 80,
+      "motion": 4
+    },
+    {
+      "name": "Residential/Utility pole",
+      "artwork": "fa1ea.svg",
+      "x": 184,
+      "y": 69,
+      "width": 20,
+      "height": 80,
+      "motion": 4
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Road tile",
+      "artwork": "87732.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Residential/Park slide",
+      "artwork": "db892.svg",
+      "x": 204,
+      "y": 115,
+      "width": 43,
+      "height": 34,
+      "motion": 4
+    }
+  ]
+}

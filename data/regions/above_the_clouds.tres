@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "気球"
+artwork = "res://assets/art/fd741.svg"
+artwork_size = Vector2i(24, 38)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "豆の木"
+artwork = "res://assets/art/4f019.svg"
+artwork_size = Vector2i(30, 64)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "にじ"
+artwork = "res://assets/art/27aee.svg"
+artwork_size = Vector2i(100, 44)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "雲のくじら"
+artwork = "res://assets/art/69e50.svg"
+artwork_size = Vector2i(57, 20)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "空の城"
+artwork = "res://assets/art/e9e2e.svg"
+artwork_size = Vector2i(84, 76)
+
+[resource]
+script = ExtResource("1")
+key = "above_the_clouds"
+title = "雲の上"
+source_node = "53:10954"
+end_distance_m = 800000000000000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/above_the_clouds.json"

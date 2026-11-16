@@ -1,0 +1,81 @@
+[tools]
+godot = "4.7.2-stable"
+rust = "1.99.0"
+python = "3.14.10"
+uv = "0.13.8"
+"pipx:gdtoolkit" = { version = "4.5.0", uvx_args = "--python 3.14.10" }
+
+[tasks.play]
+description = "Play Walk"
+run = "godot --path ."
+
+[tasks.editor]
+description = "Open the editable project"
+run = "godot --editor --path ."
+
+[tasks.format]
+description = "Format owned GDScript"
+run = ["gdformat scripts tests", "cargo fmt --manifest-path tools/Cargo.toml"]
+
+[tasks.lint]
+description = "Check GDScript formatting and style"
+run = ["gdformat --check scripts tests", "gdlint scripts tests"]
+
+[tasks.typecheck]
+description = "Import and compile the project with Godot"
+run = "cargo run --locked --manifest-path tools/Cargo.toml -- typecheck"
+
+[tasks.test]
+description = "Run deterministic game and interface tests"
+run = "godot --headless --path . --script addons/gut/gut_cmdln.gd -gexit"
+
+[tasks.check]
+description = "Check formatting, types, content, and behavior"
+run = [
+  "cargo fmt --manifest-path tools/Cargo.toml --check",
+  "cargo clippy --locked --manifest-path tools/Cargo.toml --all-targets -- -D warnings",
+  "cargo test --locked --manifest-path tools/Cargo.toml",
+  "mise run lint",
+  "mise run typecheck",
+  "mise run test",
+  "cargo run --locked --manifest-path tools/Cargo.toml -- fixtures",
+]
+
+[tasks.export-windows]
+description = "Export the Windows desktop package"
+run = [
+  "mkdir -p build/windows",
+  "godot --headless --path . --export-release Windows build/windows/Walk.exe",
+]
+
+[tasks.export-macos]
+description = "Export the universal macOS application"
+run = [
+  "mkdir -p build/macos",
+  "godot --headless --path . --export-release macOS build/macos/Walk.zip",
+]
+
+[tasks.export-linux]
+description = "Export the Linux desktop package"
+run = [
+  "mkdir -p build/linux",
+  "godot --headless --path . --export-release Linux build/linux/Walk.x86_64",
+]
+
+[tasks.export]
+description = "Check and export all desktop packages"
+run = [
+  "mise run check",
+  "mise run export-windows",
+  "mise run export-macos",
+  "mise run export-linux",
+  "cargo run --locked --manifest-path tools/Cargo.toml -- package",
+]
+
+[tasks.smoke]
+description = "Exercise the game through native input and the complete route"
+run = "godot --path . -- --smoke-test"
+
+[tasks.gallery]
+description = "Capture every region and panel from the real renderer"
+run = "godot --path . -- --smoke-test --capture-gallery"

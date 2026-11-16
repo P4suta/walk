@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Moon/Boulder">
+<path id="paper" d="M7 1H9V2H7V1ZM4 2H12V3H4V2ZM3 3H13V4H3V3ZM3 4H14V5H3V4ZM2 5H14V7H2V5ZM2 7H15V8H2V7ZM1 8H15V9H1V8Z" fill="black"/>
+<path id="ink" d="M7 1H9V2H7V1ZM4 2H7V3H4V2ZM9 2H12V3H9V2ZM3 3H4V5H3V3ZM12 3H13V4H12V3ZM6 4H7V5H6V4ZM13 4H14V7H13V4ZM2 5H3V8H2V5ZM10 6H11V7H10V6ZM14 7H15V8H14V7ZM1 8H15V9H1V8Z" fill="white"/>
+</g>
+</svg>

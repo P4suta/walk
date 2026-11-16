@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "モアイ"
+artwork = "res://assets/art/b210c.svg"
+artwork_size = Vector2i(42, 41)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "南の島"
+artwork = "res://assets/art/f7332.svg"
+artwork_size = Vector2i(54, 34)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "キーウィ"
+artwork = "res://assets/art/b3dfc.svg"
+artwork_size = Vector2i(22, 14)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "ハーバーブリッジ"
+artwork = "res://assets/art/562b2.svg"
+artwork_size = Vector2i(113, 29)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "カンガルー"
+artwork = "res://assets/art/a5898.svg"
+artwork_size = Vector2i(27, 31)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "コアラ"
+artwork = "res://assets/art/de527.svg"
+artwork_size = Vector2i(29, 44)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "ウルル"
+artwork = "res://assets/art/41a2e.svg"
+artwork_size = Vector2i(99, 19)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "南極のペンギン"
+artwork = "res://assets/art/e989f.svg"
+artwork_size = Vector2i(44, 26)
+
+[resource]
+script = ExtResource("1")
+key = "oceania"
+title = "オセアニア"
+source_node = "53:7698"
+end_distance_m = 280000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/oceania.json"

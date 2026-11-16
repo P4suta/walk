@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "きのこのむれ"
+artwork = "res://assets/art/f93cf.svg"
+artwork_size = Vector2i(24, 16)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "かたつむり"
+artwork = "res://assets/art/cedb6.svg"
+artwork_size = Vector2i(18, 12)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "のっぽきのこ"
+artwork = "res://assets/art/a1ec7.svg"
+artwork_size = Vector2i(30, 44)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "きのこの家"
+artwork = "res://assets/art/9d756.svg"
+artwork_size = Vector2i(36, 42)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "大きのこ"
+artwork = "res://assets/art/5f549.svg"
+artwork_size = Vector2i(52, 66)
+
+[resource]
+script = ExtResource("1")
+key = "mushroom_forest"
+title = "きのこの森"
+source_node = "53:10711"
+end_distance_m = 110000000000000000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/mushroom_forest.json"

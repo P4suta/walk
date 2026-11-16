@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "一里塚"
+artwork = "res://assets/art/f7431.svg"
+artwork_size = Vector2i(30, 16)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "常夜灯"
+artwork = "res://assets/art/1c2eb.svg"
+artwork_size = Vector2i(12, 32)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "かご"
+artwork = "res://assets/art/55623.svg"
+artwork_size = Vector2i(60, 23)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "旅籠"
+artwork = "res://assets/art/2c718.svg"
+artwork_size = Vector2i(72, 46)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "天守"
+artwork = "res://assets/art/7c995.svg"
+artwork_size = Vector2i(64, 70)
+
+[resource]
+script = ExtResource("1")
+key = "feudal_highway"
+title = "江戸時代"
+source_node = "53:9902"
+end_distance_m = 2800000000000000.0
+night = true
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/feudal_highway.json"

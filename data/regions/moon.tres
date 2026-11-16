@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "月着陸船"
+artwork = "res://assets/art/b4992.svg"
+artwork_size = Vector2i(36, 32)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "月面の旗"
+artwork = "res://assets/art/d0f0b.svg"
+artwork_size = Vector2i(14, 22)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "月面車"
+artwork = "res://assets/art/4e6dc.svg"
+artwork_size = Vector2i(30, 24)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "月の岩"
+artwork = "res://assets/art/a5daf.svg"
+artwork_size = Vector2i(16, 9)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "地球の出"
+artwork = "res://assets/art/d9fef.svg"
+artwork_size = Vector2i(30, 30)
+
+[resource]
+script = ExtResource("1")
+key = "moon"
+title = "月"
+source_node = "53:8024"
+end_distance_m = 380000000.0
+night = true
+helmet = true
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4")])
+landscape = "res://data/landscapes/moon.json"

@@ -1,0 +1,56 @@
+[gd_resource type="Resource" script_class="UpgradeCatalog" load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/upgrade_catalog.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/upgrade_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Upgrade_0"]
+script = ExtResource("2")
+title = "わらじ"
+base_price = 10
+stride_m = 0.1
+steps_per_second = 0
+icon = "res://assets/art/adabb.svg"
+
+[sub_resource type="Resource" id="Upgrade_1"]
+script = ExtResource("2")
+title = "運動靴"
+base_price = 300
+stride_m = 0.5
+steps_per_second = 0
+icon = "res://assets/art/00ef0.svg"
+
+[sub_resource type="Resource" id="Upgrade_2"]
+script = ExtResource("2")
+title = "登山靴"
+base_price = 3000
+stride_m = 2.5
+steps_per_second = 0
+icon = "res://assets/art/29d53.svg"
+
+[sub_resource type="Resource" id="Upgrade_3"]
+script = ExtResource("2")
+title = "犬"
+base_price = 50
+stride_m = 0.0
+steps_per_second = 1
+icon = "res://assets/art/22c9b.svg"
+
+[sub_resource type="Resource" id="Upgrade_4"]
+script = ExtResource("2")
+title = "猿"
+base_price = 500
+stride_m = 0.0
+steps_per_second = 5
+icon = "res://assets/art/8859e.svg"
+
+[sub_resource type="Resource" id="Upgrade_5"]
+script = ExtResource("2")
+title = "きじ"
+base_price = 5000
+stride_m = 0.0
+steps_per_second = 25
+icon = "res://assets/art/ae0b6.svg"
+
+[resource]
+script = ExtResource("1")
+items = Array[ExtResource("2")]([SubResource("Upgrade_0"), SubResource("Upgrade_1"), SubResource("Upgrade_2"), SubResource("Upgrade_3"), SubResource("Upgrade_4"), SubResource("Upgrade_5")])

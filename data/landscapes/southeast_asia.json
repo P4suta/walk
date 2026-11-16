@@ -1,0 +1,181 @@
+{
+  "source_node": "53:12110",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 230,
+      "y": 44,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Southeast Asia/Jungle canopy",
+      "artwork": "2ea06.svg",
+      "x": 0,
+      "y": 127,
+      "width": 96,
+      "height": 22,
+      "motion": 4
+    },
+    {
+      "name": "Southeast Asia/Jungle canopy",
+      "artwork": "2ea06.svg",
+      "x": 96,
+      "y": 127,
+      "width": 96,
+      "height": 22,
+      "motion": 4
+    },
+    {
+      "name": "Southeast Asia/Jungle canopy",
+      "artwork": "2ea06.svg",
+      "x": 192,
+      "y": 127,
+      "width": 96,
+      "height": 22,
+      "motion": 4
+    },
+    {
+      "name": "Southeast Asia/Jungle canopy",
+      "artwork": "2ea06.svg",
+      "x": 288,
+      "y": 127,
+      "width": 96,
+      "height": 22,
+      "motion": 4
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Jungle path tile",
+      "artwork": "4579f.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Southeast Asia/Stilt house",
+      "artwork": "60bcf.svg",
+      "x": 39,
+      "y": 105,
+      "width": 37,
+      "height": 44,
+      "motion": 4
+    },
+    {
+      "name": "Southeast Asia/Wat Arun",
+      "artwork": "9d428.svg",
+      "x": 140,
+      "y": 73,
+      "width": 53,
+      "height": 76,
+      "motion": 4
+    },
+    {
+      "name": "Southeast Asia/Bagan temple",
+      "artwork": "90e71.svg",
+      "x": 252,
+      "y": 99,
+      "width": 41,
+      "height": 50,
+      "motion": 4
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "source_node": "53:12248",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 230,
+      "y": 44,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 0,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 64,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 128,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 192,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Mediterranean/Sea horizon",
+      "artwork": "0f9a3.svg",
+      "x": 256,
+      "y": 137,
+      "width": 64,
+      "height": 12,
+      "motion": 1
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/White stone tile",
+      "artwork": "d87fa.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Mediterranean/Colosseum",
+      "artwork": "25174.svg",
+      "x": -8,
+      "y": 109,
+      "width": 84,
+      "height": 40,
+      "motion": 4
+    },
+    {
+      "name": "Mediterranean/Mouth of Truth",
+      "artwork": "3c6db.svg",
+      "x": 140,
+      "y": 115,
+      "width": 23,
+      "height": 34,
+      "motion": 4
+    },
+    {
+      "name": "Mediterranean/Leaning Tower",
+      "artwork": "9a037.svg",
+      "x": 252,
+      "y": 85,
+      "width": 22,
+      "height": 64,
+      "motion": 4
+    }
+  ]
+}

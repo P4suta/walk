@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "なつめやし"
+artwork = "res://assets/art/18d99.svg"
+artwork_size = Vector2i(30, 46)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "らくだ"
+artwork = "res://assets/art/cce2e.svg"
+artwork_size = Vector2i(32, 29)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "スフィンクス"
+artwork = "res://assets/art/ef627.svg"
+artwork_size = Vector2i(48, 28)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "ピラミッド"
+artwork = "res://assets/art/12958.svg"
+artwork_size = Vector2i(80, 50)
+
+[sub_resource type="Resource" id="Sight_4"]
+script = ExtResource("2")
+title = "アブ・シンベル神殿"
+artwork = "res://assets/art/1b8a9.svg"
+artwork_size = Vector2i(79, 44)
+
+[sub_resource type="Resource" id="Sight_5"]
+script = ExtResource("2")
+title = "ペトラ"
+artwork = "res://assets/art/490a0.svg"
+artwork_size = Vector2i(43, 58)
+
+[sub_resource type="Resource" id="Sight_6"]
+script = ExtResource("2")
+title = "岩のドーム"
+artwork = "res://assets/art/2adfe.svg"
+artwork_size = Vector2i(53, 46)
+
+[sub_resource type="Resource" id="Sight_7"]
+script = ExtResource("2")
+title = "カッパドキアの岩"
+artwork = "res://assets/art/28eb4.svg"
+artwork_size = Vector2i(55, 48)
+
+[resource]
+script = ExtResource("1")
+key = "desert_lands"
+title = "砂漠の国々"
+source_node = "53:6053"
+end_distance_m = 19000000.0
+night = false
+helmet = false
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3"), SubResource("Sight_4"), SubResource("Sight_5"), SubResource("Sight_6"), SubResource("Sight_7")])
+landscape = "res://data/landscapes/desert_lands.json"

@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="48" height="14" viewBox="0 0 48 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Residential/Block wall" clip-path="url(#clip0_0_167)">
+<path id="paper" d="M0 0H48V14H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H48V2H0V0ZM11 2H12V7H11V2ZM23 2H24V7H23V2ZM35 2H36V7H35V2ZM47 2H48V7H47V2ZM0 7H48V8H0V7ZM5 8H6V13H5V8ZM17 8H18V13H17V8ZM29 8H30V13H29V8ZM41 8H42V13H41V8ZM0 13H48V14H0V13Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_167">
+<rect width="48" height="14" fill="white"/>
+</clipPath>
+</defs>
+</svg>

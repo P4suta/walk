@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Latin America/Highland tile" clip-path="url(#clip0_0_296)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM4 4H8V5H4V4ZM3 5H4V6H3V5ZM8 5H9V6H8V5ZM4 6H8V7H4V6ZM18 10H21V11H18V10ZM17 11H18V12H17V11ZM21 11H22V12H21V11ZM18 12H21V13H18V12ZM9 18H13V19H9V18ZM8 19H9V20H8V19ZM13 19H14V20H13V19ZM9 20H13V21H9V20ZM24 25H27V26H24V25ZM23 26H24V27H23V26ZM27 26H28V27H27V26ZM24 27H27V28H24V27Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_296">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

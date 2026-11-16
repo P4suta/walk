@@ -1,0 +1,217 @@
+{
+  "source_node": "53:12806",
+  "night": true,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Star large",
+      "artwork": "aba79.svg",
+      "x": 170,
+      "y": 44,
+      "width": 5,
+      "height": 5,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Star small",
+      "artwork": "9a5b9.svg",
+      "x": 120,
+      "y": 50,
+      "width": 3,
+      "height": 3,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Star dot",
+      "artwork": "efb32.svg",
+      "x": 146,
+      "y": 36,
+      "width": 1,
+      "height": 1,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Star dot",
+      "artwork": "efb32.svg",
+      "x": 214,
+      "y": 58,
+      "width": 1,
+      "height": 1,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Star small",
+      "artwork": "9a5b9.svg",
+      "x": 262,
+      "y": 62,
+      "width": 3,
+      "height": 3,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Star dot",
+      "artwork": "efb32.svg",
+      "x": 300,
+      "y": 44,
+      "width": 1,
+      "height": 1,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Star dot",
+      "artwork": "efb32.svg",
+      "x": 226,
+      "y": 40,
+      "width": 1,
+      "height": 1,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Star dot",
+      "artwork": "efb32.svg",
+      "x": 60,
+      "y": 70,
+      "width": 1,
+      "height": 1,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Star small",
+      "artwork": "9a5b9.svg",
+      "x": 24,
+      "y": 84,
+      "width": 3,
+      "height": 3,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Star dot",
+      "artwork": "efb32.svg",
+      "x": 96,
+      "y": 62,
+      "width": 1,
+      "height": 1,
+      "motion": 0
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Truss tile",
+      "artwork": "d8e30.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Earth orbit/Rocket",
+      "artwork": "bf282.svg",
+      "x": 53,
+      "y": 64,
+      "width": 15,
+      "height": 42,
+      "motion": 4
+    },
+    {
+      "name": "Earth orbit/Satellite",
+      "artwork": "1f56f.svg",
+      "x": 124,
+      "y": 58,
+      "width": 43,
+      "height": 19,
+      "motion": 4
+    },
+    {
+      "name": "Earth orbit/Space station",
+      "artwork": "3cee3.svg",
+      "x": 236,
+      "y": 44,
+      "width": 79,
+      "height": 40,
+      "motion": 4
+    }
+  ]
+}

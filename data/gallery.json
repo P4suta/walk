@@ -1,0 +1,554 @@
+[
+  {
+    "key": "residential",
+    "title": "住宅街",
+    "landscape": "res://data/landscapes/residential.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "key": "rice_fields",
+    "title": "田んぼ道",
+    "landscape": "res://data/landscapes/rice_fields.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "key": "forest",
+    "title": "森",
+    "landscape": "res://data/landscapes/forest.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "key": "mountain_path",
+    "title": "山道",
+    "landscape": "res://data/landscapes/mountain_path.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "seaside",
+    "title": "海辺",
+    "landscape": "res://data/landscapes/seaside.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "east_asia",
+    "title": "東アジア",
+    "landscape": "res://data/landscapes/east_asia.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "southeast_asia",
+    "title": "東南アジア",
+    "landscape": "res://data/landscapes/southeast_asia.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "south_asia",
+    "title": "南アジア",
+    "landscape": "res://data/landscapes/south_asia.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "desert_lands",
+    "title": "砂漠の国々",
+    "landscape": "res://data/landscapes/desert_lands.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "savanna",
+    "title": "サバンナ",
+    "landscape": "res://data/landscapes/savanna.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "mediterranean",
+    "title": "地中海",
+    "landscape": "res://data/landscapes/mediterranean.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "western_europe",
+    "title": "西ヨーロッパ",
+    "landscape": "res://data/landscapes/western_europe.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "northern_europe",
+    "title": "北ヨーロッパ",
+    "landscape": "res://data/landscapes/northern_europe.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "north_america",
+    "title": "北アメリカ",
+    "landscape": "res://data/landscapes/north_america.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "latin_america",
+    "title": "中南米",
+    "landscape": "res://data/landscapes/latin_america.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "oceania",
+    "title": "オセアニア",
+    "landscape": "res://data/landscapes/oceania.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "earth_orbit",
+    "title": "地球のまわり",
+    "landscape": "res://data/landscapes/earth_orbit.json",
+    "night": true,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "moon",
+    "title": "月",
+    "landscape": "res://data/landscapes/moon.json",
+    "night": true,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "inner_planets",
+    "title": "金星と水星",
+    "landscape": "res://data/landscapes/inner_planets.json",
+    "night": false,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "mars",
+    "title": "火星",
+    "landscape": "res://data/landscapes/mars.json",
+    "night": false,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "asteroid_belt",
+    "title": "小惑星帯",
+    "landscape": "res://data/landscapes/asteroid_belt.json",
+    "night": true,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "jupiter",
+    "title": "木星",
+    "landscape": "res://data/landscapes/jupiter.json",
+    "night": false,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "saturn",
+    "title": "土星",
+    "landscape": "res://data/landscapes/saturn.json",
+    "night": true,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "ice_giants",
+    "title": "氷の星々",
+    "landscape": "res://data/landscapes/ice_giants.json",
+    "night": true,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "deep_space",
+    "title": "星の海",
+    "landscape": "res://data/landscapes/deep_space.json",
+    "night": true,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "dinosaur_age",
+    "title": "恐竜時代",
+    "landscape": "res://data/landscapes/dinosaur_age.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "ice_age",
+    "title": "氷河期",
+    "landscape": "res://data/landscapes/ice_age.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "stone_age",
+    "title": "縄文時代",
+    "landscape": "res://data/landscapes/stone_age.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "ancient_world",
+    "title": "古代文明",
+    "landscape": "res://data/landscapes/ancient_world.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "castle_age",
+    "title": "城の時代",
+    "landscape": "res://data/landscapes/castle_age.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "feudal_highway",
+    "title": "江戸時代",
+    "landscape": "res://data/landscapes/feudal_highway.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "steam_age",
+    "title": "蒸気の時代",
+    "landscape": "res://data/landscapes/steam_age.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "future_city",
+    "title": "未来都市",
+    "landscape": "res://data/landscapes/future_city.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "sweets_land",
+    "title": "お菓子の国",
+    "landscape": "res://data/landscapes/sweets_land.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "toy_land",
+    "title": "おもちゃの国",
+    "landscape": "res://data/landscapes/toy_land.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "mushroom_forest",
+    "title": "きのこの森",
+    "landscape": "res://data/landscapes/mushroom_forest.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "sea_floor",
+    "title": "海の底",
+    "landscape": "res://data/landscapes/sea_floor.json",
+    "night": true,
+    "helmet": true,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "above_the_clouds",
+    "title": "雲の上",
+    "landscape": "res://data/landscapes/above_the_clouds.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "haunted_forest",
+    "title": "おばけの森",
+    "landscape": "res://data/landscapes/haunted_forest.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "storybook_land",
+    "title": "絵本の国",
+    "landscape": "res://data/landscapes/storybook_land.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "dragon_valley",
+    "title": "竜の谷",
+    "landscape": "res://data/landscapes/dragon_valley.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "residential_night",
+    "title": "住宅街・夜",
+    "landscape": "res://data/landscapes/residential_night.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "key": "rice_fields_night",
+    "title": "田んぼ道・夜",
+    "landscape": "res://data/landscapes/rice_fields_night.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "key": "forest_day",
+    "title": "森・昼",
+    "landscape": "res://data/landscapes/forest_day.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "key": "mountain_path_night",
+    "title": "山道・夜",
+    "landscape": "res://data/landscapes/mountain_path_night.json",
+    "night": true,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "key": "seaside_day",
+    "title": "海辺・昼",
+    "landscape": "res://data/landscapes/seaside_day.json",
+    "night": false,
+    "helmet": false,
+    "party": [
+      1,
+      1,
+      1
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Sweets land/Biscuit tile" clip-path="url(#clip0_0_175)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM1 3H2V4H1V3ZM5 3H6V4H5V3ZM9 3H10V4H9V3ZM13 3H14V4H13V3ZM17 3H18V4H17V3ZM21 3H22V4H21V3ZM25 3H26V4H25V3ZM29 3H30V4H29V3ZM6 8H7V9H6V8ZM16 8H17V9H16V8ZM26 8H27V9H26V8ZM11 17H12V18H11V17ZM21 17H22V18H21V17ZM6 26H7V27H6V26ZM16 26H17V27H16V26ZM26 26H27V27H26V26Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_175">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

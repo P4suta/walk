@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="RegionDef" load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/content/region_def.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/content/sight_def.gd" id="2"]
+
+[sub_resource type="Resource" id="Sight_0"]
+script = ExtResource("2")
+title = "ロケット"
+artwork = "res://assets/art/bf282.svg"
+artwork_size = Vector2i(15, 42)
+
+[sub_resource type="Resource" id="Sight_1"]
+script = ExtResource("2")
+title = "人工衛星"
+artwork = "res://assets/art/1f56f.svg"
+artwork_size = Vector2i(43, 19)
+
+[sub_resource type="Resource" id="Sight_2"]
+script = ExtResource("2")
+title = "宇宙ステーション"
+artwork = "res://assets/art/3cee3.svg"
+artwork_size = Vector2i(79, 40)
+
+[sub_resource type="Resource" id="Sight_3"]
+script = ExtResource("2")
+title = "宇宙望遠鏡"
+artwork = "res://assets/art/6ae6b.svg"
+artwork_size = Vector2i(39, 35)
+
+[resource]
+script = ExtResource("1")
+key = "earth_orbit"
+title = "地球のまわり"
+source_node = "53:7839"
+end_distance_m = 300000000.0
+night = true
+helmet = true
+sights = Array[ExtResource("2")]([SubResource("Sight_0"), SubResource("Sight_1"), SubResource("Sight_2"), SubResource("Sight_3")])
+landscape = "res://data/landscapes/earth_orbit.json"

@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mediterranean/White stone tile" clip-path="url(#clip0_0_310)">
+<path id="paper" d="M0 0H32V32H0V0Z" fill="white"/>
+<path id="ink" d="M0 0H32V1H0V0ZM16 1H17V11H16V1ZM0 11H10V12H0V11ZM16 11H26V12H16V11ZM5 12H6V22H5V12ZM26 12H27V22H26V12ZM8 22H18V23H8V22ZM24 22H32V23H24V22ZM14 23H15V32H14V23Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_310">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

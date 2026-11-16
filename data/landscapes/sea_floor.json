@@ -1,0 +1,217 @@
+{
+  "source_node": "37:2896",
+  "night": true,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sea floor/Bubbles",
+      "artwork": "2e65b.svg",
+      "x": 130,
+      "y": 64,
+      "width": 8,
+      "height": 18,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Bubbles",
+      "artwork": "2e65b.svg",
+      "x": 204,
+      "y": 40,
+      "width": 8,
+      "height": 18,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Bubbles",
+      "artwork": "2e65b.svg",
+      "x": 284,
+      "y": 78,
+      "width": 8,
+      "height": 18,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Fish",
+      "artwork": "aed25.svg",
+      "x": 150,
+      "y": 50,
+      "width": 16,
+      "height": 9,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Fish",
+      "artwork": "aed25.svg",
+      "x": 172,
+      "y": 58,
+      "width": 16,
+      "height": 9,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Fish",
+      "artwork": "aed25.svg",
+      "x": 160,
+      "y": 70,
+      "width": 16,
+      "height": 9,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Fish",
+      "artwork": "aed25.svg",
+      "x": 252,
+      "y": 44,
+      "width": 16,
+      "height": 9,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Jellyfish",
+      "artwork": "12e20.svg",
+      "x": 74,
+      "y": 62,
+      "width": 14,
+      "height": 20,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Kelp",
+      "artwork": "41d91.svg",
+      "x": 20,
+      "y": 99,
+      "width": 12,
+      "height": 50,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Kelp",
+      "artwork": "41d91.svg",
+      "x": 36,
+      "y": 99,
+      "width": 12,
+      "height": 50,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Shipwreck",
+      "artwork": "d7999.svg",
+      "x": 148,
+      "y": 93,
+      "width": 90,
+      "height": 56,
+      "motion": 4
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": -32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Seabed tile",
+      "artwork": "d7e96.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Sea floor/Dragon palace",
+      "artwork": "c781f.svg",
+      "x": 262,
+      "y": 100,
+      "width": 47,
+      "height": 49,
+      "motion": 4
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "source_node": "37:2027",
+  "night": false,
+  "traveler": [
+    96,
+    123
+  ],
+  "sprites": [
+    {
+      "name": "Sky/Sun",
+      "artwork": "a76a3.svg",
+      "x": 148,
+      "y": 10,
+      "width": 22,
+      "height": 22,
+      "motion": 0
+    },
+    {
+      "name": "Sky/Cloud B",
+      "artwork": "2badd.svg",
+      "x": 104,
+      "y": 56,
+      "width": 30,
+      "height": 12,
+      "motion": 0
+    },
+    {
+      "name": "Dinosaur age/Volcano",
+      "artwork": "7a658.svg",
+      "x": 176,
+      "y": 87,
+      "width": 124,
+      "height": 62,
+      "motion": 4
+    },
+    {
+      "name": "Dinosaur age/Long neck",
+      "artwork": "14617.svg",
+      "x": 236,
+      "y": 87,
+      "width": 76,
+      "height": 62,
+      "motion": 4
+    },
+    {
+      "name": "Dinosaur age/Fern",
+      "artwork": "67d22.svg",
+      "x": 20,
+      "y": 125,
+      "width": 26,
+      "height": 24,
+      "motion": 4
+    },
+    {
+      "name": "Dinosaur age/Egg nest",
+      "artwork": "a4d72.svg",
+      "x": 70,
+      "y": 139,
+      "width": 18,
+      "height": 10,
+      "motion": 4
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": -32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 0,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 32,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 64,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 96,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 128,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 160,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 192,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 224,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 256,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Swamp tile",
+      "artwork": "cda9f.svg",
+      "x": 288,
+      "y": 148,
+      "width": 32,
+      "height": 32,
+      "motion": 8
+    },
+    {
+      "name": "Dinosaur age/Triceratops",
+      "artwork": "57b85.svg",
+      "x": 124,
+      "y": 121,
+      "width": 48,
+      "height": 28,
+      "motion": 4
+    }
+  ]
+}

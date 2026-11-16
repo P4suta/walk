@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mars/Small moons">
+<path id="paper" d="M2 2H8V3H2V2ZM14 2H18V6H14V2ZM1 3H9V7H1V3ZM2 7H8V8H2V7Z" fill="white"/>
+<path id="ink" d="M2 2H8V3H2V2ZM14 2H18V3H14V2ZM1 3H2V7H1V3ZM8 3H9V7H8V3ZM14 3H15V5H14V3ZM17 3H18V5H17V3ZM4 4H5V5H4V4ZM14 5H18V6H14V5ZM6 6H7V7H6V6ZM2 7H8V8H2V7Z" fill="black"/>
+</g>
+</svg>

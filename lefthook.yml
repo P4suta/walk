@@ -1,0 +1,12 @@
+pre-commit:
+  commands:
+    lint:
+      run: mise run lint
+    secrets:
+      run: mise run secrets-staged
+pre-push:
+  commands:
+    check:
+      run: mise run check
+    secrets:
+      run: mise run secrets

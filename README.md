@@ -5,8 +5,10 @@ A pixel art walking game through 248 sights.
 ## Installation
 
 ```sh
+git clone https://github.com/P4suta/walk.git
+cd walk
 mise trust
-mise install godot rust python uv pipx:gdtoolkit
+mise install godot rust python uv pipx:gdtoolkit lefthook jactionlint zizmor gitleaks
 ```
 
 ## Usage

@@ -1,12 +1,13 @@
 # Development
 
 Install [mise](https://mise.jdx.dev/getting-started.html), then run the commands from the extracted project directory.
-The project pins Godot 4.7.2, gdtoolkit 4.5.0, Python 3.14.10, uv 0.13.8, and Rust 1.99.0.
+The project pins its tools in `mise.toml`.
+Godot, gdtoolkit, Python, uv, Rust, the workflow linters, the secret scanner, and the Git hook runner use exact versions.
 The project stores Godot Unit Test (GUT) 9.7.1 in `addons/gut` with its license.
 
 ```sh
 mise trust
-mise install godot rust python uv pipx:gdtoolkit
+mise install godot rust python uv pipx:gdtoolkit lefthook jactionlint zizmor gitleaks
 mise run editor
 ```
 
@@ -24,7 +25,7 @@ Run the same local checks used by the pull request workflow.
 mise run check
 ```
 
-The command checks Rust formatting, Clippy, tool tests, GDScript formatting, lint, engine compilation, game tests, and compiler rejection fixtures.
+The command checks Rust formatting, Clippy, tool tests, workflow syntax and security, GDScript formatting, lint, engine compilation, game tests, and compiler rejection fixtures.
 The engine refuses missing type annotations and incompatible types.
 The content tests reject missing sights, missing artwork, invalid dimensions, and invalid landscape data.
 The persistence tests exercise interrupted writes, corrupted primary files, backup recovery, and integer precision.
@@ -33,6 +34,8 @@ The complete-route test uses the normal walking, upgrade, arrival, and gate rule
 Use `mise run format` to format GDScript.
 Run `mise run typecheck` or `mise run test` for a focused check.
 The Rust helper treats engine error diagnostics as failures even when the editor returns a successful exit status.
+Run `mise run secrets` from a Git checkout to scan committed source, or `mise run secrets-staged` to scan staged changes.
+The [contribution guide](../CONTRIBUTING.md) describes the local Git hooks and pull request requirements.
 
 ## Desktop packages
 

@@ -1,5 +1,7 @@
 # Playing the game
 
+![Residential area with the traveler, step counter, distance, and upgrade controls.](images/residential-area.png)
+
 Walk through Japan, the world, space, history, and fantasy, then return home.
 The journey contains 41 regions and 248 sights.
 Your steps pay for shoes, companions, and four gates.
